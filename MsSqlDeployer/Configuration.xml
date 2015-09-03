@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Database>
+  <Solution Name="">
+    <ConnectionString Server="(local)" Database="Test" UserName="sa" Password="" />
+    <Full TargetVersion="1.2">
+      <Table>
+        <Item>Module1\Table1.sql</Item>
+        <Item>Module1\Table2.sql</Item>
+        <Item>Module2\Table1.sql</Item>
+        <Item>Module2\Table2.sql</Item>
+      </Table>
+      <View>
+        <Item>Module1\View1.sql</Item>
+        <Item>Module1\View2.sql</Item>
+        <Item>Module2\View1.sql</Item>
+        <Item>Module2\View2.sql</Item>
+      </View>
+      <Function>
+        <Item>Module1\Function1.sql</Item>
+        <Item>Module1\Function2.sql</Item>
+        <Item>Module2\Function1.sql</Item>
+        <Item>Module2\Function2.sql</Item>
+      </Function>
+      <StoredProcedure>
+        <Item>Module1\StoredProcedure1.sql</Item>
+        <Item>Module1\StoredProcedure2.sql</Item>
+        <Item>Module2\StoredProcedure1.sql</Item>
+        <Item>Module2\StoredProcedure2.sql</Item>
+      </StoredProcedure>
+      <Data>
+        <Item>Module1\Data1.sql</Item>
+        <Item>Module1\Data2.sql</Item>
+        <Item>Module2\Data1.sql</Item>
+        <Item>Module2\Data2.sql</Item>
+      </Data>
+      <BCP>
+        <Item TargetTable="">Module1\Data1.sql</Item>
+      </BCP>
+    </Full>
+    <Incremental BaseVersion="1.0" TargetVersion="1.2">
+      <Table>
+        <Item>Module1\Table1.sql</Item>
+        <Item>Module1\Table2.sql</Item>
+        <Item>Module2\Table1.sql</Item>
+        <Item>Module2\Table2.sql</Item>
+      </Table>
+      <View>
+        <Item>Module1\View1.sql</Item>
+        <Item>Module1\View2.sql</Item>
+        <Item>Module2\View1.sql</Item>
+        <Item>Module2\View2.sql</Item>
+      </View>
+      <Function>
+        <Item>Module1\Function1.sql</Item>
+        <Item>Module1\Function2.sql</Item>
+        <Item>Module2\Function1.sql</Item>
+        <Item>Module2\Function2.sql</Item>
+      </Function>
+      <StoredProcedure>
+        <Item>Module1\StoredProcedure1.sql</Item>
+        <Item>Module1\StoredProcedure2.sql</Item>
+        <Item>Module2\StoredProcedure1.sql</Item>
+        <Item>Module2\StoredProcedure2.sql</Item>
+      </StoredProcedure>
+      <Data>
+        <Item>Module1\Data1.sql</Item>
+        <Item>Module1\Data2.sql</Item>
+        <Item>Module2\Data1.sql</Item>
+        <Item>Module2\Data2.sql</Item>
+      </Data>
+      <BCP>
+        <Item TargetTable="">Module1\Data1.sql</Item>
+      </BCP>
+    </Incremental>
+  </Solution>
+</Database>
