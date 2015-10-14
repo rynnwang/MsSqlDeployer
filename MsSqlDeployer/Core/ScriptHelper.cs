@@ -29,7 +29,7 @@ namespace ifunction.MicrosoftSqlDeployTool.Core
         /// <value>
         /// The output.
         /// </value>
-        public static SqlExecutor.WriteOutputDelegate WriteOutputDelegate
+        public static WriteOutputDelegate WriteOutputDelegate
         {
             get;
             set;
@@ -192,7 +192,7 @@ namespace ifunction.MicrosoftSqlDeployTool.Core
         /// </summary>
         /// <param name="batFilePath">The bat file path.</param>
         /// <param name="outputDelegate">The output delegate.</param>
-        public static void RunBatCommand(string batFilePath, SqlExecutor.WriteOutputDelegate outputDelegate)
+        public static void RunBatCommand(string batFilePath, WriteOutputDelegate outputDelegate)
         {
             if (!string.IsNullOrWhiteSpace(batFilePath))
             {

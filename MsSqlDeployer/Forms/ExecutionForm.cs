@@ -223,8 +223,8 @@ namespace ifunction.MicrosoftSqlDeployTool
 
             if (form != null)
             {
-                form.Invoke(new SqlExecutor.WriteOutputDelegate(WriteOutput), "-----------------------------------" + Environment.NewLine);
-                form.Invoke(new SqlExecutor.WriteOutputDelegate(WriteOutput), "Execution is started at " + DateTime.Now.ToString(dateTimeFormat) + Environment.NewLine);
+                form.Invoke(new WriteOutputDelegate(WriteOutput), "-----------------------------------" + Environment.NewLine);
+                form.Invoke(new WriteOutputDelegate(WriteOutput), "Execution is started at " + DateTime.Now.ToString(dateTimeFormat) + Environment.NewLine);
 
                 try
                 {
@@ -236,7 +236,7 @@ namespace ifunction.MicrosoftSqlDeployTool
                 catch (ThreadAbortException taex)
                 {
                     Thread.ResetAbort();
-                    form.Invoke(new SqlExecutor.WriteOutputDelegate(WriteOutput), "Execution is aborted.");
+                    form.Invoke(new WriteOutputDelegate(WriteOutput), "Execution is aborted.");
                     form.Invoke(new Action(SetButtonAsCompleted));
                 }
                 catch (Exception ex)
@@ -246,8 +246,8 @@ namespace ifunction.MicrosoftSqlDeployTool
                 finally
                 {
                     form.workThread = null;
-                    form.Invoke(new SqlExecutor.WriteOutputDelegate(WriteOutput), "Execution is ended at " + DateTime.Now.ToString(dateTimeFormat) + Environment.NewLine);
-                    form.Invoke(new SqlExecutor.WriteOutputDelegate(WriteOutput), "-----------------------------------" + Environment.NewLine);
+                    form.Invoke(new WriteOutputDelegate(WriteOutput), "Execution is ended at " + DateTime.Now.ToString(dateTimeFormat) + Environment.NewLine);
+                    form.Invoke(new WriteOutputDelegate(WriteOutput), "-----------------------------------" + Environment.NewLine);
                 }
             }
         }

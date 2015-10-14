@@ -6,13 +6,13 @@ using System.Xml.Linq;
 
 namespace ifunction.MicrosoftSqlDeployTool.Core
 {
+    public delegate void WriteOutputDelegate(string text);
+
     /// <summary>
     /// Class SqlExecutor. This class cannot be inherited.
     /// </summary>
     public sealed class SqlExecutor
     {
-        public delegate void WriteOutputDelegate(string text);
-
         private bool isFull = false;
         private Version baseVersion = null;
         private Version targetVersion = null;
