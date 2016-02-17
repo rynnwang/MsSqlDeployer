@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Xml.Linq;
 
-namespace ifunction.MicrosoftSqlDeployTool.Core
+namespace Beyova.MicrosoftSqlDeployTool.Core
 {
     /// <summary>
     /// Class for solution

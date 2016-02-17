@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 using System.IO;
 using System.Xml.Linq;
 
-namespace ifunction.MicrosoftSqlDeployTool.Core
+namespace Beyova.MicrosoftSqlDeployTool.Core
 {
     public delegate void WriteOutputDelegate(string text);
 

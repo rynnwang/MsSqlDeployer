@@ -4,10 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ifunction.MicrosoftSqlDeployTool.Core
+namespace Beyova.MicrosoftSqlDeployTool.Core
 {
     /// <summary>
-    /// 
+    /// Class ComboboxItem.
     /// </summary>
     public class ComboboxItem
     {

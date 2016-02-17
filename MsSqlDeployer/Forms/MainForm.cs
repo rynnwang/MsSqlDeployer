@@ -4,10 +4,10 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using System.Linq;
-using ifunction.MicrosoftSqlDeployTool.Core;
-using ifunction.MicrosoftSqlDeployTool.Properties;
+using Beyova.MicrosoftSqlDeployTool.Core;
+using Beyova.MicrosoftSqlDeployTool.Properties;
 
-namespace ifunction.MicrosoftSqlDeployTool
+namespace Beyova.MicrosoftSqlDeployTool
 {
     public partial class MainForm : Form
     {

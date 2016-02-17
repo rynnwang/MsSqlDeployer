@@ -2,9 +2,9 @@
 using System.Linq;
 using System.Windows.Forms;
 using System.Xml.Linq;
-using ifunction.MicrosoftSqlDeployTool.Core;
+using Beyova.MicrosoftSqlDeployTool.Core;
 
-namespace ifunction.MicrosoftSqlDeployTool
+namespace Beyova.MicrosoftSqlDeployTool
 {
     /// <summary>
     /// Class for form of Save Solution As

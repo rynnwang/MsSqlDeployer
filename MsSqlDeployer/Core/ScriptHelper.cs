@@ -9,7 +9,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
 
-namespace ifunction.MicrosoftSqlDeployTool.Core
+namespace Beyova.MicrosoftSqlDeployTool.Core
 {
     /// <summary>
     /// Static class for Script Helper

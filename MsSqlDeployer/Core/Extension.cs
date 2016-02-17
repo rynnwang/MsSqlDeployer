@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml.Linq;
 
-namespace ifunction
+namespace Beyova
 {
     /// <summary>
     /// Class Extension.

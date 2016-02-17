@@ -4,7 +4,7 @@ using System.Linq;
 using System.Windows.Forms;
 using System.Xml.Linq;
 
-namespace ifunction.MicrosoftSqlDeployTool
+namespace Beyova.MicrosoftSqlDeployTool
 {
     /// <summary>
     /// Class for advanced form

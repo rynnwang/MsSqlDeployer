@@ -1,4 +1,4 @@
-﻿namespace ifunction.MicrosoftSqlDeployTool
+﻿namespace Beyova.MicrosoftSqlDeployTool
 {
     partial class ExecutionForm
     {

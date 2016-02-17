@@ -1,4 +1,4 @@
-﻿namespace ifunction
+﻿namespace Beyova
 {
     /// <summary>
     /// Class for constants

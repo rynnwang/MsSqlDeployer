@@ -7,8 +7,8 @@
     <ProjectGuid>{3B193BCF-00B1-4538-B5E6-6BC92492B63F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ifunction.MicrosoftSqlDeployTool</RootNamespace>
-    <AssemblyName>ifunction.MicrosoftSqlDeployTool</AssemblyName>
+    <RootNamespace>Beyova.MicrosoftSqlDeployTool</RootNamespace>
+    <AssemblyName>Beyova.MicrosoftSqlDeployTool</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>

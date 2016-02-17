@@ -3,9 +3,9 @@ using System.Diagnostics;
 using System.Threading;
 using System.Windows.Forms;
 using System.Xml.Linq;
-using ifunction.MicrosoftSqlDeployTool.Core;
+using Beyova.MicrosoftSqlDeployTool.Core;
 
-namespace ifunction.MicrosoftSqlDeployTool
+namespace Beyova.MicrosoftSqlDeployTool
 {
     /// <summary>
     /// 

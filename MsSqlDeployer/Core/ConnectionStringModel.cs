@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace ifunction.MicrosoftSqlDeployTool.Core
+namespace Beyova.MicrosoftSqlDeployTool.Core
 {
     /// <summary>
     /// Class for saving SQL connection information, which can be used to generate a connection string.

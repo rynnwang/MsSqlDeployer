@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 using System.IO;
-using ifunction.MicrosoftSqlDeployTool.Core;
+using Beyova.MicrosoftSqlDeployTool.Core;
 
-namespace ifunction
+namespace Beyova
 {
     /// <summary>
     /// Class ConfigurationHelper.
